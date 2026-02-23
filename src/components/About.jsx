@@ -21,7 +21,7 @@ import {
   SiFigma,
   SiFlask,
   SiGooglecloud,
-  SiOracle
+  SiOracle,
 } from "react-icons/si";
 import ScrollReveal from "./ScrollReveal";
 
@@ -49,7 +49,16 @@ const skillCategories = [
   {
     title: "Tools & Platforms",
     icon: <FiTool size={20} />,
-    skills: ["GitHub", "VS Code", "Figma", "Jira", "LaTeX"],
+    skills: [
+      "GitHub",
+      "VS Code",
+      "Figma",
+      "Jira",
+      "LaTeX",
+      "WSL",
+      "Docker",
+      "GitLab",
+    ],
   },
   {
     title: "Cloud",
@@ -80,8 +89,7 @@ const education = [
     period: "2022 — 2027",
     title: "Integrated M.Sc. in Computer Science (AI & Data Science)",
     institution: "Cochin University of Science and Technology (CUSAT)",
-    details:
-      "GPA: 7.93/10 (till 6th semester) ",
+    details: "GPA: 7.93/10 (till 6th semester) ",
   },
   {
     period: "2020 — 2022",
@@ -94,7 +102,7 @@ const education = [
     title: "Secondary School",
     institution: "MEMS International School",
     details: "",
-  }
+  },
 ];
 
 export default function About() {
