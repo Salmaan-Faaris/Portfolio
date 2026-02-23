@@ -12,7 +12,7 @@
             "OpenCV",
             "NumPy"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": "https://github.com/Salmaan-Faaris/Micro-Plastic_Detection",
         "demoLink": "",
         "metrics": {
             "Precision": 92,
@@ -34,7 +34,7 @@
             "LabelImg",
             "Anaconda"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": null,
         "demoLink": "",
         "metrics": {
             "Accuracy": 94,
@@ -55,7 +55,7 @@
             "WebRTC",
             "Google Cloud"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": "https://github.com/Salmaan-Faaris/Medi",
         "demoLink": "",
         "metrics": {},
         "images": []
@@ -72,7 +72,7 @@
             "ggplot2",
             "Kaggle"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": "https://github.com/Salmaan-Faaris/State-Level-CPI-Rural-Urban-February-2024",
         "demoLink": "",
         "metrics": {
             "RMSE": 2.3,
@@ -91,7 +91,7 @@
             "MySQL",
             "Swing"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": "https://github.com/Salmaan-Faaris/Java-Programming-",
         "demoLink": "",
         "metrics": {},
         "images": []
@@ -109,7 +109,7 @@
             "MNIST",
             "NumPy"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": null,
         "demoLink": "",
         "metrics": {
             "Test Accuracy": 98,
@@ -129,7 +129,24 @@
             "Haar Cascade",
             "NumPy"
         ],
-        "githubLink": "https://github.com/Salmaan-Faaris",
+        "githubLink": "https://github.com/Salmaan-Faaris/OpenCV-Basics",
+        "demoLink": "",
+        "metrics": {},
+        "images": []
+    },
+    {
+        "id": 8,
+        "title": "AI Samasya — Inclusive Learning Platform",
+        "shortDescription": "AI-based learning platform tailored for visually impaired learners.",
+        "fullDescription": "Won 2nd Prize at the AI Samasya Hackathon, part of the International Conclave on Generative AI held in Thiruvananthapuram. Developed an AI-based learning platform specifically designed for visually impaired learners, leveraging Generative AI to create an inclusive and accessible educational experience. Built the frontend using React.js for a responsive and intuitive user interface, and implemented backend services with Flask to handle AI-driven content generation and processing. Demonstrated the real-world application of Generative AI in inclusive education, showcasing how advanced AI techniques can bridge accessibility gaps in learning.",
+        "category": "Web",
+        "techStack": [
+            "React.js",
+            "Flask",
+            "Python",
+            "Generative AI"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris/AISamasya",
         "demoLink": "",
         "metrics": {},
         "images": []
