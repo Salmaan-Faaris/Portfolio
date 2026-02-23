@@ -85,7 +85,7 @@
         "title": "Pharmacy Management System",
         "shortDescription": "GUI-based management system for pharmacy workflows with full CRUD operations and MySQL database.",
         "fullDescription": "Designed and implemented a GUI-based management system for pharmacy workflows. Supported CRUD (Create, Read, Update, Delete) operations with a connected MySQL database. Improved inventory handling, sales tracking, and streamlined pharmacy operations.",
-        "category": "Web",
+        "category": "Java",
         "techStack": [
             "Java",
             "MySQL",

@@ -4,8 +4,8 @@ import { ProjectCard, ProjectModal } from './ProjectCard';
 import ScrollReveal from './ScrollReveal';
 import projects from '../data/projects.json';
 
-const categories = ['All', 'DL', 'ML', 'Web'];
-const categoryLabels = { All: 'All Projects', DL: 'Deep Learning', ML: 'Machine Learning', Web: 'Web Dev' };
+const categories = ['All', 'DL', 'ML', 'Web','Java'];
+const categoryLabels = { All: 'All Projects', DL: 'Deep Learning', ML: 'Machine Learning', Web: 'Web Dev', Java: 'Java Programming' };
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All');

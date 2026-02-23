@@ -18,15 +18,14 @@ export default function Contact() {
     };
 
     const contactInfo = [
-        { icon: <FiMail size={20} />, label: 'salmanfaris.n@gmail.com', href: 'mailto:salmanfaris.n@gmail.com' },
-        { icon: <FiPhone size={20} />, label: '+91 8921301690', href: 'tel:+918921301690' },
+        { icon: <FiMail size={20} />, label: 'salmanfaris.n@gmail.com', href:null},
+        { icon: <FiPhone size={20} />, label: '+91 8921301690', href: null},
         { icon: <FiMapPin size={20} />, label: 'Kochi, Kerala, India', href: null },
     ];
 
     const socials = [
         { icon: <FiGithub size={22} />, href: 'https://github.com/Salmaan-Faaris', label: 'GitHub' },
         { icon: <FaLinkedinIn size={22} />, href: 'https://linkedin.com/in/salmaanfaaris', label: 'LinkedIn' },
-        { icon: <FiMail size={22} />, href: 'mailto:salmanfaris.n@gmail.com', label: 'Email' },
     ];
 
     const inputStyle = {

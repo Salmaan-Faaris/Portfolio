@@ -6,6 +6,7 @@ const categoryColors = {
     DL: { bg: 'rgba(108,99,255,0.15)', color: '#8b83ff', label: 'Deep Learning' },
     ML: { bg: 'rgba(0,212,255,0.15)', color: '#00d4ff', label: 'Machine Learning' },
     Web: { bg: 'rgba(255,107,107,0.15)', color: '#ff6b6b', label: 'Web Development' },
+    Java: { bg: 'rgba(255,159,28,0.15)', color: '#ff9f1c', label: 'Java Programming' },
 };
 
 function ProjectCard({ project, onClick }) {
