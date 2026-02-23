@@ -1,0 +1,18 @@
+[
+    {
+        "id": "resume",
+        "title": "My Resume",
+        "type": "resume",
+        "description": "Full professional resume with education, skills, projects, and experience.",
+        "file": "/documents/Salman_Faris_CV.pdf",
+        "date": "2026"
+    },
+    {
+        "id": "intern-1",
+        "title": "Artificial Intelligence Internship",
+        "type": "internship",
+        "description": "Internship completion certificate from PixDynamics Pvt.Ltd.",
+        "file": "/documents/Internship Certificate.pdf",
+        "date": "2024"
+    }
+]
