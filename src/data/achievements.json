@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "2nd Prize — AI Samasya Hackathon",
+        "description": "Won 2nd Prize at the AI Samasya Hackathon during the International Conclave on Generative AI, Thiruvananthapuram (2024). Developed an AI-based learning platform tailored for visually impaired learners. Designed frontend using React.js and backend services with Flask. Demonstrated real-world application of Generative AI in inclusive education.",
+        "year": "2024",
+        "certificateImage": ""
+    },
+    {
+        "id": 2,
+        "title": "NER Internship — PixDynamics Pvt. Ltd.",
+        "description": "Completed a one-month industry internship at PixDynamics Pvt. Ltd. (May–June 2024) at Infopark, Kochi. Gained hands-on experience in data preparation, annotation, and implementation of Named Entity Recognition (NER) models using PaddleOCR and LabelImg.",
+        "year": "2024",
+        "certificateImage": ""
+    },
+    {
+        "id": 3,
+        "title": "Technical Team Member — IEDC, CUSAT",
+        "description": "Contributed to technical development and innovation activities of the Innovation and Entrepreneurship Development Cell (IEDC) at CUSAT. Supported organizing hackathons, workshops, and student-led projects. Actively involved in promoting a culture of innovation, entrepreneurship, and technology-driven solutions.",
+        "year": "2025",
+        "certificateImage": ""
+    },
+    {
+        "id": 4,
+        "title": "Google Cloud Deployment",
+        "description": "Successfully deployed the MediConnect telemedicine application on Google Cloud Platform, demonstrating proficiency in cloud hosting, scalable infrastructure, and DevOps workflows.",
+        "year": "2024",
+        "certificateImage": ""
+    }
+]

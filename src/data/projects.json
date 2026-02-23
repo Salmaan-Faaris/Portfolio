@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "title": "Microplastic Detection in Marine Bodies",
+        "shortDescription": "Object detection pipeline using YOLOv5 to identify microplastics in marine body images, supporting marine conservation efforts.",
+        "fullDescription": "Developed an object detection pipeline to identify microplastics in marine body images using the YOLOv5 architecture. Preprocessed a custom dataset by converting annotations to YOLO format and splitting it into training and validation sets. Applied data augmentation and experimented with multiple input resolutions (416, 640, 800) to optimize accuracy–performance trade-offs. Trained and evaluated the model locally due to data privacy and resource management constraints. Achieved high precision in detecting small microplastic particles, demonstrating feasibility for marine conservation applications.",
+        "category": "DL",
+        "techStack": [
+            "Python",
+            "YOLOv5",
+            "PyTorch",
+            "OpenCV",
+            "NumPy"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {
+            "Precision": 92,
+            "Recall": 88,
+            "mAP@0.5": 90
+        },
+        "images": []
+    },
+    {
+        "id": 2,
+        "title": "Named Entity Recognition with GLiNER",
+        "shortDescription": "NER system for extracting entities from driving license images using PaddleOCR and GLiNER at PixDynamics Pvt. Ltd.",
+        "fullDescription": "Completed a one-month industry internship at PixDynamics Pvt. Ltd. (May–June 2024) at Infopark, Kochi. Gained hands-on experience in data preparation, annotation, and implementation of Named Entity Recognition (NER) models. Implemented data extraction from driving license images using PaddleOCR. Designed and optimized NER workflows to improve the accuracy of document information extraction. Annotated datasets using LabelImg and prepared structured datasets for training and testing, ensuring quality data pipelines for object detection and entity recognition tasks.",
+        "category": "ML",
+        "techStack": [
+            "Python",
+            "GLiNER",
+            "PaddleOCR",
+            "LabelImg",
+            "Anaconda"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {
+            "Accuracy": 94,
+            "F1 Score": 91
+        },
+        "images": []
+    },
+    {
+        "id": 3,
+        "title": "MediConnect — Telemedicine Platform",
+        "shortDescription": "MERN stack web application with WebRTC for real-time doctor-patient video consultations, deployed on Google Cloud.",
+        "fullDescription": "Developed a MERN stack web application to streamline the doctor-patient booking process, reducing wait times and improving continuity of care. Enabled digital interactions and virtual consultations, making healthcare accessible to patients unable to attend in-person visits. Integrated an online meeting feature using WebRTC, allowing real-time face-to-face video and audio consultations. Built the frontend with React.js, while the backend was implemented using Node.js with MongoDB as the database. Deployed the application on Google Cloud under a free-trial plan to demonstrate cloud hosting capabilities.",
+        "category": "Web",
+        "techStack": [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "WebRTC",
+            "Google Cloud"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {},
+        "images": []
+    },
+    {
+        "id": 4,
+        "title": "CPI Analysis & Forecasting",
+        "shortDescription": "Time-series analysis of Consumer Price Index data using R and ARIMA models for economic trend forecasting.",
+        "fullDescription": "Analyzed CPI dataset (Kaggle) and carried out extensive data preprocessing and visualization. Created visualizations such as Scatter plots, Line plots and Heat maps to make the project easier to interpret. Applied ARIMA time-series models to forecast future price trends with accuracy evaluation. Delivered insights on inflation trends and their implications for economic planning.",
+        "category": "ML",
+        "techStack": [
+            "R",
+            "ARIMA",
+            "ggplot2",
+            "Kaggle"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {
+            "RMSE": 2.3,
+            "Forecast Accuracy": 87
+        },
+        "images": []
+    },
+    {
+        "id": 5,
+        "title": "Pharmacy Management System",
+        "shortDescription": "GUI-based management system for pharmacy workflows with full CRUD operations and MySQL database.",
+        "fullDescription": "Designed and implemented a GUI-based management system for pharmacy workflows. Supported CRUD (Create, Read, Update, Delete) operations with a connected MySQL database. Improved inventory handling, sales tracking, and streamlined pharmacy operations.",
+        "category": "Web",
+        "techStack": [
+            "Java",
+            "MySQL",
+            "Swing"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {},
+        "images": []
+    },
+    {
+        "id": 6,
+        "title": "Handwritten Digit Recognition",
+        "shortDescription": "Built a digit recognition system using Convolutional Neural Networks trained on the MNIST dataset.",
+        "fullDescription": "Built a digit recognition system using convolutional neural networks (CNN). Trained the model on the MNIST dataset achieving high accuracy on both training and test sets. Implemented data preprocessing, model architecture design, training pipeline, and evaluation metrics.",
+        "category": "DL",
+        "techStack": [
+            "Python",
+            "TensorFlow",
+            "CNN",
+            "MNIST",
+            "NumPy"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {
+            "Test Accuracy": 98,
+            "Training Accuracy": 99
+        },
+        "images": []
+    },
+    {
+        "id": 7,
+        "title": "Face Recognition System",
+        "shortDescription": "Real-time face detection and recognition system using OpenCV and Haar Cascade classifiers.",
+        "fullDescription": "Implemented a real-time face detection and recognition system in Python using OpenCV's Haar Cascade classifiers. The system captures video feed, detects faces in real-time, and performs recognition against a trained model.",
+        "category": "DL",
+        "techStack": [
+            "Python",
+            "OpenCV",
+            "Haar Cascade",
+            "NumPy"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris",
+        "demoLink": "",
+        "metrics": {},
+        "images": []
+    }
+]
