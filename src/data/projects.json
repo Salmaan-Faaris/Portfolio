@@ -150,5 +150,23 @@
         "demoLink": "",
         "metrics": {},
         "images": []
+    },
+    {
+        "id": 9,
+        "title": "Music Genre Prediction",
+        "shortDescription": "Music genre classification system using a pre-trained HuggingFace transformer model with PyTorch and librosa.",
+        "fullDescription": "Built a music genre classification system leveraging a pre-trained audio classification model from HuggingFace Transformers. The pipeline loads audio files using librosa, extracts features via a pre-trained feature extractor, and classifies music into genres using a fine-tuned transformer model. Implemented efficient inference with PyTorch, utilizing torch.no_grad for optimized predictions. The system demonstrates the practical application of transfer learning in audio classification tasks.",
+        "category": "ML",
+        "techStack": [
+            "Python",
+            "PyTorch",
+            "HuggingFace Transformers",
+            "librosa",
+            "NumPy"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris/Music_Type_Prediction",
+        "demoLink": "",
+        "metrics": {},
+        "images": []
     }
 ]
