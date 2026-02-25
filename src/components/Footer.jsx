@@ -49,7 +49,7 @@ export default function Footer() {
                     {[
                         { icon: <FiGithub size={18} />, href: 'https://github.com/salmaan-faaris', label: 'GitHub' },
                         { icon: <FaLinkedinIn size={18} />, href: 'https://linkedin.com/in/salmaanfaaris', label: 'LinkedIn' },
-                        { icon: <FiMail size={18} />, href: 'mailto:salmanfaris.n@gmail.com', label: 'Email' },
+                        { icon: <FiMail size={18} />, href: 'https://mail.google.com/mail/?view=cm&to=salmanfaris.n@gmail.com', label: 'Email' },
                     ].map((social) => (
                         <a
                             key={social.label}

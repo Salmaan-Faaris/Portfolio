@@ -9,17 +9,17 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const mailtoLink = `mailto:salmanfaris.n@gmail.com?subject=${encodeURIComponent(
-            form.subject || 'Portfolio Contact'
-        )}&body=${encodeURIComponent(
+        const subject = encodeURIComponent(form.subject || 'Portfolio Contact');
+        const body = encodeURIComponent(
             `Hi Salman,\n\nMy name is ${form.name}.\n\n${form.message}`
-        )}`;
-        window.open(mailtoLink, '_blank');
+        );
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&to=salmanfaris.n@gmail.com&su=${subject}&body=${body}`;
+        window.open(gmailUrl, '_blank');
     };
 
     const contactInfo = [
-        { icon: <FiMail size={20} />, label: 'salmanfaris.n@gmail.com', href:null},
-        { icon: <FiPhone size={20} />, label: '+91 8921301690', href: null},
+        { icon: <FiMail size={20} />, label: 'salmanfaris.n@gmail.com', href: 'https://mail.google.com/mail/?view=cm&to=salmanfaris.n@gmail.com' },
+        { icon: <FiPhone size={20} />, label: '+91 8921301690', href: null },
         { icon: <FiMapPin size={20} />, label: 'Kochi, Kerala, India', href: null },
     ];
 

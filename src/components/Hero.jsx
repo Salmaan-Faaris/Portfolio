@@ -155,7 +155,7 @@ export default function Hero() {
                         {[
                             { icon: <FiGithub size={20} />, href: 'https://github.com/Salmaan-Faaris', label: 'GitHub' },
                             { icon: <FaLinkedinIn size={20} />, href: 'https://linkedin.com/in/salmaanfaaris', label: 'LinkedIn' },
-                            { icon: <FiMail size={20} />, href: 'mailto:salmanfaris.n@gmail.com', label: 'Email' },
+                            { icon: <FiMail size={20} />, href: 'https://mail.google.com/mail/?view=cm&to=salmanfaris.n@gmail.com', label: 'Email' },
                         ].map((social) => (
                             <motion.a
                                 key={social.label}
