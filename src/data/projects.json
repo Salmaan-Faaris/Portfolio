@@ -168,5 +168,25 @@
         "demoLink": "",
         "metrics": {},
         "images": []
+    },
+    {
+        "id": 10,
+        "title": "Roast My Resume",
+        "shortDescription": "AI-powered web app that acts as a \"brutal recruiter\" to roast uploaded resumes with instant feedback and scoring.",
+        "fullDescription": "An AI-powered web app that acts as a \"brutal recruiter\" to roast your uploaded resume. It leverages PDF.js for secure, client-side document parsing and uses the Pollinations AI API with Retrieval-Augmented Generation (RAG) to provide instant feedback, AI scoring, and actionable advice securely within the browser.",
+        "category": "Web",
+        "techStack": [
+            "React.js",
+            "PDF.js",
+            "Pollinations AI API",
+            "RAG"
+        ],
+        "githubLink": "https://github.com/Salmaan-Faaris/Roast_My_Resume",
+        "demoLink": "",
+        "metrics": {},
+        "images": [
+            "/Images/Roast_My_Resume (1).png",
+            "/Images/Roast_My_Resume (2).png"
+        ]
     }
 ]
