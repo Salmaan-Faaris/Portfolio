@@ -188,5 +188,29 @@
             "/Images/Roast_My_Resume (1).png",
             "/Images/Roast_My_Resume (2).png"
         ]
+    },
+    {
+        "id": 11,
+        "title": "Bias Detection in Text using Transformer Models (RoBERTa)",
+        "shortDescription": "Built a transformer-based bias detection model using RoBERTa, improving detection of subtle bias through custom dataset generation and augmentation. Applied weighted loss and hyperparameter tuning to achieve 92.5% accuracy.",
+        "fullDescription": "Developed a bias detection system to identify both explicit and subtle bias in textual data using transformer-based models. Initially trained on the AllenAI Real Toxicity Prompts dataset, key limitations were identified in detecting mild and implicit bias. To address this, a custom dataset was generated using template-based data augmentation techniques to introduce subtle bias patterns. A combined dataset was then used to improve model generalization. Implemented and compared multiple models including RoBERTa-base, DistilRoBERTa, and RoBERTa-large, with RoBERTa-large achieving the best performance. Further improved results using hyperparameter tuning and cost-sensitive learning (class-weighted loss), achieving an accuracy of 92.5% and an F1-score of 0.8722. The model demonstrated significant improvement in detecting subtle bias that was previously misclassified.",
+        "category": "DL",
+        "techStack": [
+            "Python",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "Hugging Face Datasets",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "Kaggle"
+        ],
+        "githubLink": null,
+        "demoLink": "",
+        "metrics": {
+            "Accuracy": 92.5,
+            "F1 Score": 87.22
+        },
+        "images": []
     }
 ]
